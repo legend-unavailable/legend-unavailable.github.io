@@ -1,5 +1,8 @@
 html {height: 100%;}
-body {background: linear-gradient(darkred, red, black);}
+body {
+  background: linear-gradient(darkred, red, black);
+  background-attachment: fixed;
+}
 h2 {
   text-align: center;
   font-size: 40px;
