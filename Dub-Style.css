@@ -1,9 +1,5 @@
 html {height: 100%;}
-body {
-  background: linear-gradient(mediumpurple, purple, black);
-  height: 100%;
-  overflow: auto;
-}
+body {background: linear-gradient(mediumpurple, purple, black);}
 h2 {
   text-align: center;
   font-size: 40px;
