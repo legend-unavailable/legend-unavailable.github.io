@@ -1,0 +1,35 @@
+html {height: 100%;}
+body {background: linear-gradient(blue, deepskyblue, black);}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: serif;
+  text-shadow: -3px 3px deepskyblue;
+}
+h3{text-align: center;}
+.back {
+  color: black;
+  font-size: 25px;
+}
+p {
+  text-align: center;
+  font-size: 27px;
+  font-family: serif;
+}
+.list {
+  font-family: serif;
+  color: black;
+  text-shadow: -2px 2px skyblue;
+  font-size: 25px;
+}
+.list1 {
+  font-family: serif;
+  color: skyblue;
+  text-shadow: 3px 3px black;
+  font-size: 25px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

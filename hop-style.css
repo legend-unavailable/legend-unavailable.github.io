@@ -1,0 +1,36 @@
+html {height: 100%;}
+body {background: linear-gradient(teal, green, black);}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  text-shadow: -3px 3px lightgreen;
+}
+h3{text-align: center;}
+.back {
+  color: black;
+  font-size: 25px;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+.list {
+  font-family: monospace;
+  color: black;
+  text-shadow: -2px 2px lightgreen;
+  font-size: 25px;
+}
+.list1 {
+  font-family: monospace;
+  color: lightgreen;
+  text-shadow: 4px 4px black;
+  font-size: 25px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+a {color: rebeccapurple;}

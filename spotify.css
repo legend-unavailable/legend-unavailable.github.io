@@ -1,0 +1,17 @@
+html {height: 100%;}
+body {
+  background: linear-gradient(white, limegreen, black);
+}
+h1 {
+  text-align: center;
+  font-size: 
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+a {color: black;}
+.agg {color: rebeccapurple;}
+.mel {color: deepskyblue;}
+.trp {color: darkred;}
+.hus {color: orange;}

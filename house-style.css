@@ -1,0 +1,39 @@
+html {height: 100;}
+body {
+  background: linear-gradient(orange, lightyellow, black);
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-shadow: -3px 3px lightyellow;
+}
+h3{text-align: center;}
+.back {
+  color: black;
+  font-size: 25px;
+}
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.list {
+  font-family: sans-serif;
+  color: black;
+  text-shadow: -2px 2px orange;
+  font-size: 23px;
+}
+.list1 {
+  font-family: sans-serif;
+  color: orange;
+  text-shadow: 3px 3px black;
+  font-size: 23px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.dub{color: rebeccapurple;}
+.trap{color: darkred;}
