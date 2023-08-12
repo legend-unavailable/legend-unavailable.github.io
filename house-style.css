@@ -1,13 +1,14 @@
 html {height: 100%;}
 body {
-  background: linear-gradient(orange, lightyellow, black);
+  background: linear-gradient(black, orange, orange, orange);
   background-attachment: fixed;
 }
 h2 {
   text-align: center;
   font-size: 40px;
   font-family: sans-serif;
-  text-shadow: -3px 3px lightyellow;
+  text-shadow: -3px 3px black;
+  color: lightyellow;
 }
 h3{text-align: center;}
 .back {
@@ -15,19 +16,19 @@ h3{text-align: center;}
   font-size: 25px;
 }
 p {
-  text-align: center;
+  text-align: left;
   font-size: 25px;
   font-family: sans-serif;
 }
 .list {
   font-family: sans-serif;
   color: black;
-  text-shadow: -2px 2px orange;
+  text-shadow: -2px 2px lightyellow;
   font-size: 23px;
 }
 .list1 {
   font-family: sans-serif;
-  color: orange;
+  color: lightyellow;
   text-shadow: 3px 3px black;
   font-size: 23px;
 }
@@ -38,3 +39,4 @@ p {
 }
 .dub{color: rebeccapurple;}
 .trap{color: darkred;}
+.tag{text-align: center;}

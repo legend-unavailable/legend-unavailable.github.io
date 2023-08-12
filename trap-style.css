@@ -1,12 +1,13 @@
 html {height: 100%;}
 body {
-  background: linear-gradient(darkred, red, black);
+  background: linear-gradient(black, red, darkred);
   background-attachment: fixed;
 }
 h2 {
   text-align: center;
   font-size: 40px;
-  text-shadow: -3px 3px red;
+  text-shadow: -3px 3px black;
+  color: darkred;
 }
 h3{text-align: center;}
 .back {
@@ -14,20 +15,20 @@ h3{text-align: center;}
   font-size: 25px;
 }
 p {
-  text-align: center;
+  text-align: left;
   font-size: 29px;
-  font-variant: small-caps;
+  font-family: sans-serif;
 }
 .list {
   color: black;
   text-shadow: -3px 2px palevioletred;
-  font-variant: small-caps;
+  font-family: sans-serif;
   font-size: 25px;
 }
 .list1 {
   color: palevioletred;
   text-shadow: 4px 3px black;
-  font-variant: small-caps;
+  font-family: sans-serif;
   font-size: 25px;
 }
 .row{
@@ -38,3 +39,4 @@ p {
 a {
   color: rebeccapurple;
 }
+.tag{text-align: center;}

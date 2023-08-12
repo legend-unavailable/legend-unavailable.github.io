@@ -1,7 +1,5 @@
-html {height: 100%;}
-body {
-  background: linear-gradient(white, limegreen, black);
-}
+html {height: 100;}
+body {background-color: #707070;}
 h1 {
   text-align: center;
   font-size: 40px;
@@ -14,5 +12,20 @@ a {color: black;}
 .agg {color: rebeccapurple;}
 .mel {color: green;}
 .trp {color: darkred;}
-.hus {color: orange;}
-.dnb {color: lightseagreen;}
+.hus {color: rgb(255, 115, 0);}
+.dnb {color: blue;}
+.ncs {color: whitesmoke;}
+.poop {border-color: black;}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+img {
+  width: 350px;
+  height: 300px;
+  margin: 30px;
+  border-style: inset;
+  border-width: 20px;
+}
+.back{color: aliceblue;}

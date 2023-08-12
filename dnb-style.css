@@ -1,13 +1,14 @@
 html {height: 100%;}
 body {
-  background: linear-gradient(blue, deepskyblue, black);
+  background: linear-gradient(black, deepskyblue, blue);
   background-attachment: fixed;
 }
 h2 {
   text-align: center;
   font-size: 40px;
-  font-family: serif;
-  text-shadow: -3px 3px deepskyblue;
+  font-family: sans-serif;
+  text-shadow: -3px 3px black;
+  color: deepskyblue;
 }
 h3{text-align: center;}
 .back {
@@ -15,18 +16,18 @@ h3{text-align: center;}
   font-size: 25px;
 }
 p {
-  text-align: center;
+  text-align: left;
   font-size: 27px;
-  font-family: serif;
+  font-family: sans-serif;
 }
 .list {
-  font-family: serif;
+  font-family: sans-serif;
   color: black;
   text-shadow: -2px 2px skyblue;
   font-size: 25px;
 }
 .list1 {
-  font-family: serif;
+  font-family: sans-serif;
   color: skyblue;
   text-shadow: 3px 3px black;
   font-size: 25px;
@@ -36,3 +37,4 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.tag{text-align: center;}
