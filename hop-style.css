@@ -38,4 +38,7 @@ p {
   justify-content: space-evenly;
 }
 a {color: rebeccapurple;}
-.tag{text-align: center;}
+.tag{
+  text-align: center;
+  font-size: 25px;
+}

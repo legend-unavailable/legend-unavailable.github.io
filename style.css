@@ -3,6 +3,21 @@ h1 {
   text-align: center;
   color: forestgreen;
   text-shadow: 3px 3px black;
+  font-size: 60px;
+  animation: rgb 5s infinite;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: whitesmoke;
+}
+@keyframes rgb {
+  0% {color: mediumpurple;}
+  20% {color: darkred;}
+  40%{color: orange;}
+  60% {color: deepskyblue;}
+  80% {color: green;}
+  100% {color: mediumpurple;}
 }
 p {
   text-align: left;

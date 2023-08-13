@@ -37,4 +37,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.tag{text-align: center;}
+.tag{
+  text-align: center;
+  font-size: 25px;
+}
